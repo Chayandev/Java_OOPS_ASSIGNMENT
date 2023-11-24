@@ -9,7 +9,7 @@ package MyPackage.adtInterface;
  * The interface have the method declaration not hte implementation.
  */
 public interface Queue {
-    void enqueue(String customer);
+    public void enqueue(String customer);
 
     String dequeue();
 }

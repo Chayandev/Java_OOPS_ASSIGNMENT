@@ -1,9 +1,7 @@
+
 package MyPackage.Service;
-
 import java.util.LinkedList;
-
 import MyPackage.adtInterface.Queue;
-
 public class OperatorService implements Queue {
 
     private LinkedList<String> queue;
@@ -12,6 +10,7 @@ public class OperatorService implements Queue {
         this.queue = new LinkedList<>(); //used for more effeciaency for deletion operation
     }
 
+    
     @Override
     public void enqueue(String customer) {
         queue.add(customer);
